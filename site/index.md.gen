@@ -32,9 +32,9 @@ ApexYard adds the reviews, guardrails, and process behind every change you make 
 
 ApexYard is built using ApexYard. Verifiable from `github.com/me2resh/apexyard`:
 
-- **176 PRs reviewed and merged in the last 90 days**, under the same guardrails the tool installs in your fork
-- **8 production releases shipped** (v0.1.0 through v2.0.0)
-- **51 technical decisions recorded** (released to main) — every meaningful call in an audit trail
+- **175 PRs reviewed and merged in the last 90 days**, under the same guardrails the tool installs in your fork
+- **7 production releases shipped** (v0.1.0 through v1.3.0)
+- **29 technical decisions recorded** (released to main) — every meaningful call in an audit trail
 - **13 bugs caught and fixed** before users hit them
 
 ## See a day with it
@@ -75,7 +75,7 @@ The reviewer changes based on what you're working on. Touching auth code? A secu
 
 Want to adopt a project you've inherited? `/handover`. Want to capture an idea before it evaporates? `/idea`. Want to know what's waiting on you across every product? `/inbox`. Want a launch-readiness check before customers see it? `/launch-check`. 54 of these in total — each one is a focused workflow with safety rails.
 
-### Guardrails that stop bad code from shipping · 32 hooks
+### Guardrails that stop bad code from shipping · 36 hooks
 
 Every edit needs a real ticket behind it. Every database change needs a rollback plan. Every merge needs a real review. Secrets in code get caught before they're committed. Mechanically enforced — 32 small scripts that fire at the right moments.
 
